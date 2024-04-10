@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.image {
+    width: 500px;
+    height: 400px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color:  #f5f7fa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.number {
+    color: #323f4b;
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #e4e7eb;
+    border-radius: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.operator {
+    font-weight: bold;
+    font-size: 40px;
+    color: #c4c4c4;
+}
+
+.user-input {
+    text-align: center;
+    font-size: 30px;
+    color: #323f4b;
+    background-color: #c4c4c4;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 8px;
+    width: 120px;
+    height: 80px;
+    border-radius: 8px;
+    border-color: #e4e7eb;
+    margin: 20px;
+}
+
+.btn {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 {
+    margin-right: 4px;
+    background-color: blue;
+    color: white;
+    height: 30px;
+}
+
+.game-result {
+    color: #ffffff;
+    background-color: #f5f7fa;
+}
